@@ -109,8 +109,9 @@ select option {
 }
 
 #box {
-    font-size: 1.75rem;
-    color: #4f0ee8;
+    font-size: 1.7rem;
+    color: #5e07ce;
+    font-weight: 450;
     margin-left: 1rem;
 }
 
@@ -125,7 +126,7 @@ select option {
 }
 
 .box2-para {
-    font-size: 1.1rem;
+    font-size: 1.rem;
     padding: 0.5rem;
     opacity: 0.75;
     margin-left: 15px;
@@ -163,8 +164,9 @@ select option {
 }
 
 #convertor-para {
-    color: #4f0ee8;
+    color:#5e07ce;
     font-size: 1.1rem;
+    font-weight: 450;
 }
 
 #updated-date {
@@ -172,7 +174,7 @@ select option {
 }
 
 .box4 {
-    padding: 1.5rem 0 1.5rem 0;
+    padding: 1.1rem 0 1.1rem 0;
     background-color: #fff;
     color: black;
     border-radius: 1rem;
@@ -202,7 +204,7 @@ select option {
     width: 100vw;
     height: 30vh;
     display: flex;
-    align-items: center;
+   
     justify-content: space-evenly;
     margin-top: 1rem;
 }
@@ -211,6 +213,39 @@ select option {
     background-color: #e8e1f7;
     min-height: 25vh;
     min-width: 23%;
-    text-align: center;
+    /* text-align: center; */
     border-radius: 2rem;
+
+}
+
+.containerPara{
+    font-size: 0.9rem;
+    padding: 1rem;
+    color: #8f8e9e;
+}
+
+.currency{
+    display: flex;
+    gap: 0.8rem;
+    padding-left: 1rem;
+}
+
+.currency-name{
+     color: #8f8e9e;
+     font-size: 0.9rem;
+     margin-top: 0.1rem;
+}
+
+.bottomCurr{
+     display: flex;
+    gap: 0.8rem;
+    padding-left: 1rem;
+}
+.bottomCurrName{
+    color:#4f0ee8; ;
+}
+.bottomCurrRate{
+    color:#620ee8;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
