@@ -197,3 +197,20 @@ select option {
     background-color: #f4f2fe;
     border: 2px solid rgb(182, 128, 254, 0.3);
 }
+
+.big-container{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+ .big-container .container{
+    background-color: #e8e1f7;
+    min-height: 25vh;
+    min-width: 23%;
+    text-align: center;
+    border-radius: 2rem;
+}
