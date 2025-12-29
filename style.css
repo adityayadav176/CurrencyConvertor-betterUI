@@ -12,6 +12,12 @@ body {
     align-items: center;
     justify-content: center;
 }
+ h1{
+    padding: 2rem 0 2rem 0;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+ }
 
 .container1 {
     background-color: #dfd8fc;
@@ -55,6 +61,7 @@ body {
     border-radius: 0.5rem;
 }
 
+
 .box1 select {
     width: 20%;
     padding: 0.65rem 0 0.65rem 0;
@@ -81,7 +88,7 @@ select option {
 
 .box2 {
     padding: 1.25rem 0 1.25rem 0;
-    border: 2px solid rgb(182, 128, 254);
+    border: 2px solid rgb(182, 128, 254, 0.5);
     background-color: #efeefc;
     color: black;
     border-radius: 1rem;
@@ -126,7 +133,7 @@ select option {
 
 .box3 {
     padding: 1.25rem 0 1.25rem 0;
-    border: 2px solid rgb(182, 128, 254);
+   border: 2px solid rgb(182, 128, 254, 0.3);
     background-color: #efeefc;
     color: black;
     border-radius: 1rem;
@@ -188,5 +195,5 @@ select option {
 
 .box4:hover {
     background-color: #f4f2fe;
-    border: 2px solid rgb(182, 128, 254, 0.5);
+    border: 2px solid rgb(182, 128, 254, 0.3);
 }
