@@ -5,6 +5,10 @@
     border: none;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 body {
     background: linear-gradient(315deg, #E31A8C 0%, #2B1C8F 100%);
     min-height: auto;
@@ -132,7 +136,7 @@ select option {
 }
 
 .box2-para {
-    font-size: 1.rem;
+    font-size: 1rem;
     padding: 0.5rem;
     opacity: 0.75;
     margin-left: 15px;
@@ -165,7 +169,7 @@ select option {
 }
 
 .box3-secound {
-    align-items: right;
+    text-align: right;
     margin-right: 2rem;
 }
 
@@ -234,6 +238,11 @@ select option {
     height: 25vh;
     min-width: 23%;
     border-radius: 2rem;
+    
+}
+.big-container .container:hover {
+  transform: translateY(-6px);
+  transition: 0.3s ease;
 }
 
 .containerPara{
@@ -267,7 +276,6 @@ select option {
 }
 .bottomCurrName{
     color:#9436ff;
-    opacity: 0.5rem;
     margin-top: 4px;
 }
 .bottomCurrRate{
