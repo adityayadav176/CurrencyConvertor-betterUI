@@ -93,7 +93,7 @@ select option {
     background-color: #efeefc;
     color: black;
     border-radius: 1rem;
-    box-shadow: 0 5px 1rem rgb(214, 210, 210);
+    box-shadow: 0 0 1rem rgb(214, 210, 210);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -240,10 +240,10 @@ select option {
 }
 
 .bottomCurr{
-     display: flex;
+    display: flex;
     gap: 0.5rem;
     padding-left: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 .bottomCurrName{
     color:#9436ff;
