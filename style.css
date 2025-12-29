@@ -19,10 +19,59 @@ body {
     justify-content: center;
 }
 
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 40rem;
+}
+
+.first-items{
+    display: flex;
+}
+
+.toggle input {
+  display: none;
+}
+
+.track {
+  width: 50px;
+  height: 26px;
+  background: #ddd;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.track::after {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: 0.3s;
+}
+
+input:checked + .track {
+  background: #7c3aed;
+}
+
+input:checked + .track::after {
+  transform: translateX(24px);
+}
+
+.text{
+    color: #fff;
+}
+
+
 h1 {
     padding: 2rem 0 2rem 0;
     color: #fff;
-    text-align: center;
+    margin-left: 3rem;
     font-size: 2rem;
 }
 
