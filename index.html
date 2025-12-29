@@ -19,19 +19,19 @@
 <body>
     <h1>CurrencyConvertor</h1>
     <div class="container1">
-<!-- box1 -->
+        <!-- box1 -->
         <p class="upperPara">From</p>
         <div class="box1">
-            <input type="text" name="from" value="100">
+            <input type="number" min="0" placeholder="Enter amount" />
             <select>
                 <option>INR</option>
                 <option>USD</option>
             </select>
         </div>
         <p class="box1-para">INR</p>
-<!-- icon  -->
-        <i class="fa-solid fa-arrow-right-arrow-left"></i>
-<!-- box2 -->
+        <!-- icon  -->
+        <i class="fa-solid fa-arrow-right-arrow-left swap-btn"></i>
+        <!-- box2 -->
         <p class="upperPara">TO</p>
         <div class="box2">
             <p id="box">82</p>
@@ -41,61 +41,64 @@
             </select>
         </div>
         <p class="box2-para">USD</p>
-<!-- box3 -->
+        <!-- box3 -->
         <div class="box3">
             <div class="box3-first">
                 <i class="fa-solid fa-arrow-trend-up"></i>
-            <p>Exchange rate</p>
+                <p>Exchange rate</p>
             </div>
             <div class="box3-secound">
-                 <p id="convertor-para">1 USD = 80INR</p>
-            <P id="updated-date">last Updated : 21: 26: 07</P>
+                <p id="convertor-para">1 USD = 80INR</p>
+                <P id="updated-date">last Updated : 21: 26: 07</P>
             </div>
-           
+
         </div>
-<!-- box4 -->
+        <!-- box4 -->
         <div class="box4">
-            <i class="fa-solid fa-rotate"></i>
-            <button>Refresh Rate</button>
+            <button class="refresh-btn" id="refreshBtn" aria-label="Refresh exchange rate">
+                <i class="fa-solid fa-rotate"></i>
+                <span>Refresh Rate</span>
+            </button>
+
         </div>
     </div>
-<!-- container2 -->
- <div class="big-container">
-    <div class="container">
-        <p  class="containerPara">Quick Convert</p>
-        <div class="currency">
-            <p class="currency-rate">100</p>
-            <p class="currency-name">USD</p>
+    <!-- container2 -->
+    <div class="big-container">
+        <div class="container">
+            <p class="containerPara">Quick Convert</p>
+            <div class="currency">
+                <p class="currency-rate">100</p>
+                <p class="currency-name">USD</p>
+            </div>
+            <div class="bottomCurr">
+                <p class="bottomCurrRate">8200</p>
+                <p class="bottomCurrName">INR</p>
+            </div>
         </div>
-        <div class="bottomCurr">
-        <p class="bottomCurrRate">8200</p>
-        <p class="bottomCurrName">INR</p>
-       </div>
-    </div>
-<!-- container3 -->
-    <div class="container">
-        <p class="containerPara">Medium Amount</p>
-        <div class="currency">
-            <p class="currency-rate">500</p>
-            <p class="currency-name">USD</p>
+        <!-- container3 -->
+        <div class="container">
+            <p class="containerPara">Medium Amount</p>
+            <div class="currency">
+                <p class="currency-rate">500</p>
+                <p class="currency-name">USD</p>
+            </div>
+            <div class="bottomCurr">
+                <p class="bottomCurrRate">82000</p>
+                <p class="bottomCurrName">INR</p>
+            </div>
         </div>
-       <div class="bottomCurr">
-        <p class="bottomCurrRate">82000</p>
-        <p class="bottomCurrName">INR</p>
-       </div>
-    </div>
-<!-- container4 -->
-    <div class="container">
-        <p  class="containerPara">Large Amount</p>
-       <div class="currency">
-            <p class="currency-rate">1000</p>
-            <p class="currency-name">USD</p>
+        <!-- container4 -->
+        <div class="container">
+            <p class="containerPara">Large Amount</p>
+            <div class="currency">
+                <p class="currency-rate">1000</p>
+                <p class="currency-name">USD</p>
+            </div>
+            <div class="bottomCurr">
+                <p class="bottomCurrRate">820000</p>
+                <p class="bottomCurrName">INR</p>
+            </div>
         </div>
-       <div class="bottomCurr">
-        <p class="bottomCurrRate">820000</p>
-        <p class="bottomCurrName">INR</p>
-       </div>
-    </div>
     </div>
 
     <script src="script.js"></script>

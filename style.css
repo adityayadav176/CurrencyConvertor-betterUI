@@ -81,11 +81,16 @@ select option {
     margin-left: 15px;
 }
 
-.fa-arrow-right-arrow-left {
+.swap-btn {
    font-size: 1.3rem;
    margin-left: 50%;
    border-radius: 50%;
 }
+.swap-btn:hover {
+  transform: rotate(180deg) scale(1.1);
+  transition: 0.3s ease;
+}
+
 
 .box2 {
     padding: 1.25rem 0 1.25rem 0;
@@ -111,9 +116,9 @@ select option {
 
 #box {
     font-size: 1.7rem;
-    color: #5e07ce;
     font-weight: 450;
     margin-left: 1rem;
+    color: #6a00ff;
 }
 
 .box2 select {
@@ -165,7 +170,7 @@ select option {
 }
 
 #convertor-para {
-    color:#5e07ce;
+  color: #6a00ff;
     font-size: 1.1rem;
     font-weight: 450;
 }
@@ -174,31 +179,46 @@ select option {
     font-size: 0.76rem;
 }
 
-.box4 {
-    padding: 1.1rem 0 1.1rem 0;
-    background-color: #fff;
-    color: black;
-    border-radius: 1rem;
-    display: flex;
-    box-shadow: 0 0 1rem rgb(214, 210, 210);
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
-    gap: 1rem;
+.refresh-btn {
+     margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #fff;
+   box-shadow: 0 0 1rem rgb(214, 210, 210);
+  border: none;
+  border-radius: 14px;
+  color: #6a00ff;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.box4 i {
-    font-size: 1rem;
+/* Hover */
+.refresh-btn:hover {
+  background: #f3eaff;
+  transform: translateY(-2px);
 }
 
-.box4 button {
-    font-size: 1rem;
-    background-color:  #fff;
+/* Icon animation on hover */
+.refresh-btn:hover i {
+  transform: rotate(180deg);
+  transition: transform 0.4s ease;
 }
 
-.box4:hover {
-    background-color: #f4f2fe;
-    border: 2px solid rgb(182, 128, 254, 0.3);
+/* Loading State */
+.refresh-btn.loading i {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .big-container{
