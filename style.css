@@ -5,10 +5,12 @@
     border: none;
 }
 
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
+
 body {
     background: linear-gradient(315deg, #E31A8C 0%, #2B1C8F 100%);
     min-height: auto;
@@ -16,12 +18,13 @@ body {
     align-items: center;
     justify-content: center;
 }
- h1{
+
+h1 {
     padding: 2rem 0 2rem 0;
     color: #fff;
     text-align: center;
     font-size: 2rem;
- }
+}
 
 .container1 {
     background-color: #dfd8fc;
@@ -86,13 +89,14 @@ select option {
 }
 
 .swap-btn {
-   font-size: 1.3rem;
-   margin-left: 50%;
-   border-radius: 50%;
+    font-size: 1.3rem;
+    margin-left: 50%;
+    border-radius: 50%;
 }
+
 .swap-btn:hover {
-  transform: rotate(180deg) scale(1.1);
-  transition: 0.3s ease;
+    transform: rotate(180deg) scale(1.1);
+    transition: 0.3s ease;
 }
 
 
@@ -144,7 +148,7 @@ select option {
 
 .box3 {
     padding: 1.25rem 0 1.25rem 0;
-   border: 2px solid rgb(182, 128, 254, 0.3);
+    border: 2px solid rgb(182, 128, 254, 0.3);
     background-color: #efeefc;
     color: black;
     border-radius: 1rem;
@@ -174,7 +178,7 @@ select option {
 }
 
 #convertor-para {
-  color: #6a00ff;
+    color: #6a00ff;
     font-size: 1.1rem;
     font-weight: 450;
 }
@@ -184,48 +188,48 @@ select option {
 }
 
 .refresh-btn {
-     margin-top: 2rem;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 14px;
-  font-size: 1rem;
-  font-weight: 600;
-  background-color: #fff;
-   box-shadow: 0 0 1rem rgb(214, 210, 210);
-  border: none;
-  border-radius: 14px;
-  color: #6a00ff;
-  cursor: pointer;
-  transition: all 0.3s ease;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #fff;
+    box-shadow: 0 0 1rem rgb(214, 210, 210);
+    border: none;
+    border-radius: 14px;
+    color: #6a00ff;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 /* Hover */
 .refresh-btn:hover {
-  background: #f3eaff;
-  transform: translateY(-2px);
+    background: #f3eaff;
+    transform: translateY(-2px);
 }
 
 /* Icon animation on hover */
 .refresh-btn:hover i {
-  transform: rotate(180deg);
-  transition: transform 0.4s ease;
+    transform: rotate(180deg);
+    transition: transform 0.4s ease;
 }
 
 /* Loading State */
 .refresh-btn.loading i {
-  animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-.big-container{
+.big-container {
     width: 100vw;
     height: 30vh;
     display: flex;
@@ -233,56 +237,57 @@ select option {
     margin-top: 1rem;
 }
 
-.big-container .container{
+.big-container .container {
     background-color: #e8e1f7;
     height: 25vh;
     min-width: 23%;
     border-radius: 2rem;
-    
-}
-.big-container .container:hover {
-  transform: translateY(-6px);
-  transition: 0.3s ease;
+
 }
 
-.containerPara{
+.big-container .container:hover {
+    transform: translateY(-6px);
+    transition: 0.3s ease;
+}
+
+.containerPara {
     font-size: 0.9rem;
     padding: 1rem;
     font-weight: 500;
     color: #8f8e9e;
 }
 
-.currency{
+.currency {
     display: flex;
     gap: 0.8rem;
     padding-left: 1rem;
 }
-.currency-rate{
+
+.currency-rate {
     font-weight: 500;
 }
 
-.currency-name{
-     color: #8f8e9e;
-     font-size: 0.9rem;
-     font-weight: 500;
-     margin-top: 0.1rem;
+.currency-name {
+    color: #8f8e9e;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 0.1rem;
 }
 
-.bottomCurr{
+.bottomCurr {
     display: flex;
     gap: 0.5rem;
     padding-left: 1rem;
     margin-top: 1rem;
 }
-.bottomCurrName{
-    color:#9436ff;
+
+.bottomCurrName {
+    color: #9436ff;
     margin-top: 4px;
 }
-.bottomCurrRate{
-    color:#9436ff;
+
+.bottomCurrRate {
+    color: #9436ff;
     font-size: 1.3rem;
     font-weight: 600;
 }
-
-
-
