@@ -81,7 +81,7 @@ select option {
 
 .box2 {
     padding: 1.25rem 0 1.25rem 0;
-     border: 2px solid rgb(182, 128, 254);
+    border: 2px solid rgb(182, 128, 254);
     background-color: #efeefc;
     color: black;
     border-radius: 1rem;
@@ -92,7 +92,7 @@ select option {
 }
 
 .box2:hover {
-    border-image: linear-gradient(90deg,
+    border-color: linear-gradient(90deg,
             #6EA8FF,
             #7C7CFF,
             #8B5CF6) 1;
@@ -108,7 +108,7 @@ select option {
 }
 
 .box2 select {
-   
+
     width: 20%;
     padding: 0.65rem 0 0.65rem 0;
     margin-right: 2rem;
@@ -124,10 +124,10 @@ select option {
     margin-left: 15px;
 }
 
-.box3{
+.box3 {
     padding: 1.25rem 0 1.25rem 0;
-  border: 2px solid rgb(182, 128, 254);
-  background-color: #efeefc;
+    border: 2px solid rgb(182, 128, 254);
+    background-color: #efeefc;
     color: black;
     border-radius: 1rem;
     box-shadow: 0 0.1rem 2rem rgb(214, 210, 210);
@@ -136,17 +136,18 @@ select option {
     justify-content: space-between;
 }
 
-.box3-first{
+.box3-first {
     display: flex;
     font-size: 1.1rem;
     justify-content: flex-start;
     min-width: 80%;
 }
+
 .box3 i {
-   margin-top: 6px;
-   margin-right: 10px;
-   margin-left: 1rem;
-   color:#4f0ee8;
+    margin-top: 6px;
+    margin-right: 10px;
+    margin-left: 1rem;
+    color: #4f0ee8;
 }
 
 .box3-secound {
@@ -154,16 +155,16 @@ select option {
     margin-right: 2rem;
 }
 
-#convertor-para{
-    color:#4f0ee8;
+#convertor-para {
+    color: #4f0ee8;
     font-size: 1.1rem;
 }
 
- #updated-date{
-     font-size: 0.76rem; 
+#updated-date {
+    font-size: 0.76rem;
 }
 
-.box4{
+.box4 {
     padding: 1.5rem 0 1.5rem 0;
     background-color: #fff;
     color: black;
@@ -174,7 +175,6 @@ select option {
     justify-content: center;
     margin-top: 2rem;
     gap: 1rem;
-
 }
 
 .box4 i {
@@ -183,13 +183,10 @@ select option {
 
 .box4 button {
     font-size: 1rem;
-    background-color: #fff;
+    background-color:  #fff;
 }
 
-.box4:hover{
-    background-color:#f4f2fe;
-   border: 1px solid rgb(182, 128, 254);
+.box4:hover {
+    background-color: #f4f2fe;
+    border: 2px solid rgb(182, 128, 254, 0.5);
 }
-
-
-
