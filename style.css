@@ -340,13 +340,3 @@ select option {
     font-size: 1.3rem;
     font-weight: 600;
 }
-
-.dark{
-    background-color: #fff;
-    color: black;
-}
-/* 
-.light{
-    background-color: white;
-    color: black;
-} */
