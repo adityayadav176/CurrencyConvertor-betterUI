@@ -340,3 +340,20 @@ select option {
     font-weight: 600;
 }
 
+.dark{
+     background: rgb(53, 54, 56); 
+    color: white;
+}
+
+.color{
+    background: blue;
+    color: white;
+}
+
+.color input,
+.color select{
+      background: rgb(43, 255, 0);
+    color: rgb(210, 62, 62);
+}
+
+
