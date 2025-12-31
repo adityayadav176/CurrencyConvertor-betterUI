@@ -4,7 +4,6 @@
     box-sizing: border-box;
     border: none;
 }
-
 html,
 body {
     max-width: 100%;
@@ -340,3 +339,5 @@ select option {
     font-size: 1.3rem;
     font-weight: 600;
 }
+
+
