@@ -4,6 +4,7 @@
     box-sizing: border-box;
     border: none;
 }
+
 html,
 body {
     max-width: 100%;
@@ -19,50 +20,50 @@ body {
 }
 
 .toggle {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-left: 40rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 40rem;
 }
 
-.first-items{
+.first-items {
     display: flex;
 }
 
 .toggle input {
-  display: none;
+    display: none;
 }
 
 .track {
-  width: 50px;
-  height: 26px;
-  background: #ddd;
-  border-radius: 20px;
-  position: relative;
-  cursor: pointer;
+    width: 50px;
+    height: 26px;
+    background: #ddd;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
 }
 
 .track::after {
-  content: "";
-  width: 22px;
-  height: 22px;
-  background: white;
-  border-radius: 50%;
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  transition: 0.3s;
+    content: "";
+    width: 22px;
+    height: 22px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: 0.3s;
 }
 
-input:checked + .track {
-  background: #7c3aed;
+input:checked+.track {
+    background: #7c3aed;
 }
 
-input:checked + .track::after {
-  transform: translateX(24px);
+input:checked+.track::after {
+    transform: translateX(24px);
 }
 
-.text{
+.text {
     color: #fff;
 }
 
@@ -210,7 +211,7 @@ select option {
     display: flex;
     font-size: 1.1rem;
     justify-content: flex-start;
-    min-width: 80%;
+    min-width: 60%;
 }
 
 .box3 i {
@@ -340,12 +341,12 @@ select option {
     font-weight: 600;
 }
 
-.dark{
-     background: #1f1f1f; 
+.dark {
+    background: #1f1f1f;
     color: white;
 }
 
-.color{
+.color {
     background: rgb(38, 38, 203);
     color: white;
 }
@@ -366,9 +367,84 @@ select option {
     box-shadow: none;
 }
 
-.dark .big-container .container{
+.dark .big-container .container {
     background-color: black;
     color: white;
     box-shadow: none;
 }
 
+/* Mobile */
+@media (max-width: 600px) {
+    .container1 {
+        width: 80%;
+        height: 100%;
+    }
+
+    select option {
+        font-size: 0.5rem;
+    }
+
+    .box1 select {
+        width: auto;
+    }
+
+    .box2 select {
+        width: auto;
+    }
+
+    .box3-first {
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .box3-secound p {
+        white-space: nowrap;
+    }
+
+    .first-items {
+        overflow: hidden;
+        width: 100%;
+        overflow: visible;
+        flex-wrap: wrap;
+    }
+
+    .first-items h1 {
+        font-size: 1.5rem;
+    }
+
+    .first-items .toggle {
+        position: absolute;
+        right: 20px;
+        margin-top: 1.75rem;
+        gap: 3rem;
+    }
+
+    .big-container .container {
+        width: 30%;
+        height: 20vh;
+        margin-top: 2rem;
+    }
+
+    .containerPara {
+        margin-top: 2rem;
+        padding-left: 2rem;
+    }
+
+    .currency-rate,
+    .currency {
+        padding-left: 1rem;
+    }
+
+    .bottomCurrName,
+    .bottomCurrRate {
+        padding-left: 1rem;
+    }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+}
