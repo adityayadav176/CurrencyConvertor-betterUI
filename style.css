@@ -141,6 +141,7 @@ select option {
     font-size: 1.3rem;
     margin-left: 50%;
     border-radius: 50%;
+    background-color: red;
 }
 
 .swap-btn:hover {
@@ -442,9 +443,3 @@ select option {
     }
 }
 
-/* Tablet */
-@media (max-width: 1024px) {
-    .container {
-        width: 90%;
-    }
-}
