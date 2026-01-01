@@ -136,18 +136,35 @@ select option {
     opacity: 0.75;
     margin-left: 15px;
 }
-
+/* swap button */
 .swap-btn {
-    font-size: 1.3rem;
-    margin-left: 50%;
+    position: absolute;
+    /* CENTER horizontally */
+    left: 50%;
+    transform: translateX(-50%);
+    /* adjust vertical position */
+    top: 48%;
+    border: 5px solid #fff;
+   color: white;
+   background: linear-gradient(135deg, #7c3aed, #9333ea);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem 1rem 1rem;
     border-radius: 50%;
-    background-color: red;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
 }
 
+/* hover */
 .swap-btn:hover {
-    transform: rotate(180deg) scale(1.1);
-    transition: 0.3s ease;
+    
+    color: black;
+    transform: translateX(-50%) rotate(180deg);
 }
+
 
 
 .box2 {
@@ -443,3 +460,9 @@ select option {
     }
 }
 
+/* Tablet */
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+}
