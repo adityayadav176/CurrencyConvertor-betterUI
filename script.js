@@ -4,10 +4,10 @@ const container1 = document.querySelector(".container1");
 const containers = document.querySelector(".container");
 const input = document.querySelector("#EnterData");
 const select = document.querySelector("select");
-const convertorpara = document.querySelector("#convertor-para");
-const updatedpara = document.querySelector("#updated-date");
-const refreshbtn = document.querySelector("#refreshBtn");
-const swapbtn = document.querySelector(".swap-btn");
+const convertorPara = document.querySelector("#convertor-para");
+const updatedPara = document.querySelector("#updated-date");
+const refreshBtn = document.querySelector("#refreshBtn");
+const swapBtn = document.querySelector(".swap-btn");
 const fromCurr = document.querySelector(".box");
 
 
