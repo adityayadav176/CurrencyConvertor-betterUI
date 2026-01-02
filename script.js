@@ -3,11 +3,11 @@ const body = document.body;
 const container1 = document.querySelector(".container1");
 const containers = document.querySelector(".container");
 const swapBtn = document.querySelector(".swap-btn");
-const box1UpperText = document.querySelector
+
 // select all dropdown
 const selects = document.querySelectorAll("select");
 
-// select all country
+// select all coutry
 for( let select of selects){
     for(let currCode in countryList){
         let newOption = document.createElement("option");
@@ -24,10 +24,6 @@ for( let select of selects){
         select.append(newOption);
     }
 }
-
-//populate text bottom in box1
-
-
 
 
 toggle.addEventListener("change", () => {
