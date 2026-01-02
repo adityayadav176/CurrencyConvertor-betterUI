@@ -244,13 +244,13 @@ select option {
     margin-right: 2rem;
 }
 
-#convertor-para {
+#msg {
     color: #6a00ff;
     font-size: 1.1rem;
     font-weight: 450;
 }
 
-#updated-date {
+#updated-msg {
     font-size: 0.76rem;
 }
 
