@@ -24,9 +24,9 @@ const randMsg = document.querySelector(".box1-para");
 const getExchangeRate = async () => {
     let amount = amountInput.value;
 
-    if (amount === "" || amount <= 0) {
-        amount = 1;
-        amountInput.value = 1;
+    if (amount <= 0) {
+        amount = "";
+        amountInput.value = "";
     }
 
     const from = fromCurr.value.toLowerCase();
