@@ -16,3 +16,5 @@ JavaScript (ES6)
 Fetch API
 Currency API
 Flags API
+
+Auther - Aditya Yadav
