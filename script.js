@@ -83,7 +83,7 @@ for( let select of selects){
             newOption.selected = true;
         }
 
-        select.append(newOption);
+        
     }
 }
 // toggle btn
